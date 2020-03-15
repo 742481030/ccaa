@@ -10,10 +10,10 @@ export PATH
 #CDN域名设置
 if [ $1 = 'cdn' ]
 	then
-	aria2_url='https://pan.mxin.ltd/?/shell/aria2c/aria2-1.35.0-linux-gnu-64bit-build1.tar.bz2'
-	filebrowser_url='https://pan.mxin.ltd/?/shell/aria2c/linux-amd64-filebrowser.tar.gz'
-	master_url='https://github.com/helloxz/ccaa/archive/master.zip'
-	ccaa_web_url='https://pan.mxin.ltd/?/shell/aria2c/ccaa_web.tar.gz'
+	aria2_url='https://pan.mxin.ltd/shell/aria2c/aria2-1.35.0-linux-gnu-64bit-build1.tar.bz2'
+	filebrowser_url='https://pan.mxin.ltd/shell/aria2c/linux-amd64-filebrowser.tar.gz'
+	master_url='https://github.com/742481030/ccaa/archive/master.zip'
+	ccaa_web_url='https://pan.mxin.ltd/shell/aria2c/ccaa_web.tar.gz'
 	else
 	aria2_url='https://github.com/q3aql/aria2-static-builds/releases/download/v1.35.0/aria2-1.35.0-linux-gnu-64bit-build1.tar.bz2'
 	filebrowser_url='https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/linux-amd64-filebrowser.tar.gz'
