@@ -10,8 +10,8 @@ export PATH
 #CDN域名设置
 if [ $1 = 'cdn' ]
 	then
-	aria2_url='http://soft.xiaoz.top/linux/aria2-1.35.0-linux-gnu-64bit-build1.tar.bz2'
-	filebrowser_url='http://soft.xiaoz.top/linux/linux-amd64-filebrowser.tar.gz'
+	aria2_url='https://pan.mxin.ltd/?/shell/aria2c/aria2-1.35.0-linux-gnu-64bit-build1.tar.bz2'
+	filebrowser_url='https://pan.mxin.ltd/?/shell/aria2c/linux-amd64-filebrowser.tar.gz'
 	master_url='https://github.com/helloxz/ccaa/archive/master.zip'
 	ccaa_web_url='http://soft.xiaoz.top/linux/ccaa_web.tar.gz'
 	else
