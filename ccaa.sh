@@ -212,7 +212,7 @@ function cleanup(){
 
 #卸载
 function uninstall(){
-	wget -O ccaa-uninstall.sh https://raw.githubusercontent.com/helloxz/ccaa/master/uninstall.sh
+	wget -O ccaa-uninstall.sh https://raw.githubusercontent.com/742481030/ccaa/master/uninstall.sh
 	bash ccaa-uninstall.sh
 }
 
